@@ -1,0 +1,50 @@
+html, body {
+	height:100%;
+}
+body {
+	margin:0;
+	padding:0;
+	background:#3b3d54;
+	background-image:url(../images/bg.jpg);
+}
+.container {
+	width:100%;
+	height: 100%;
+	display:table;
+}
+.content {	
+	height:100%;
+	margin:auto;
+	width:260px;
+	text-align:center;
+	vertical-align:middle;
+	display:table-cell;
+	color:#3b3d54;
+}
+h1 {
+	font-size:20px;
+}
+h4.nrm {
+	margin:10px auto 10px 0;
+	font-weight:normal;
+}
+ul.contact_info {
+	list-style-type:none;
+	padding-left:0;
+}
+ul.contact_info li {
+	margin:6px auto 6px 0;
+}
+
+.box {
+	text-align: left;
+	font-family: 'Jura', sans-serif;
+	margin:auto;
+	width:300px;
+	padding:8px 20px;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.63);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.63);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.63);
+	background: #FFF;
+        position: relative;
+}
